@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import RxSwift
+import RxCocoa
 
 /// The main VC (the first) who show the atm on the map.
 final class HomeViewController: UIViewController {
@@ -22,6 +23,8 @@ final class HomeViewController: UIViewController {
     // MARK:- Public func
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.mapView.delegate = self
+        self.mapView.register(SonectAnnoationView.self, forAnnotationViewWithReuseIdentifier: SonectAnnoationView.reuseIdentifier)
         
         sonectWS.getAtm()
         .observeOn(MainScheduler.instance)
@@ -30,8 +33,30 @@ final class HomeViewController: UIViewController {
             case .completed: break
             case .error(let error): print(error)
             case .next(let atms):
-                print(atms)
+                let atmPin = atms?.compactMap { SonectAnnotation(atm: $0) }
+                self.mapView.addAnnotations(atmPin ?? [])
             }
         }.disposed(by: disposeBag)
+    }
+    
+    private func annotationfromAtm(atm: Atm) -> MKPointAnnotation {
+        let annoation = MKPointAnnotation.init()
+        guard let latitudeStr = atm.latitude,
+            let longitudeStr = atm.longitude,
+            let latitude = Double(latitudeStr),
+            let longitude = Double(longitudeStr) else { return annoation }
+        
+        annoation.coordinate.latitude = latitude
+        annoation.coordinate.longitude = longitude
+        return annoation
+    }
+}
+
+extension HomeViewController: MKMapViewDelegate {
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        guard let annotation = annotation as? SonectAnnotation else { return nil }
+        let annotationView = SonectAnnoationView(annotation: annotation, reuseIdentifier: SonectAnnoationView.reuseIdentifier)
+        annotationView.fill(atm: annotation.atm)
+        return annotationView
     }
 }

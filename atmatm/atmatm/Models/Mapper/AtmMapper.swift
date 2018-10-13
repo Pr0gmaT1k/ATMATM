@@ -20,5 +20,9 @@ extension Atm: Mappable {
     self.name <- map["name"]
     self.sonectId <- map["sonectId"]
     self.tagline <- map["tagline"]
+
+    // MARK: Relationships
+    self.address <- map["address"]
+    self.openingHours <- map["openingHours"]
   }
 }

@@ -13,6 +13,7 @@ final class OpeningHours: Object {
     case friday = "friday"
     case monday = "monday"
     case saturday = "saturday"
+    case sunday = "sunday"
     case thursday = "thursday"
     case tuesday = "tuesday"
     case wednesday = "wednesday"
@@ -22,6 +23,7 @@ final class OpeningHours: Object {
   @objc dynamic var friday: OpeningHoursByDay?
   @objc dynamic var monday: OpeningHoursByDay?
   @objc dynamic var saturday: OpeningHoursByDay?
+  @objc dynamic var sunday: OpeningHoursByDay?
   @objc dynamic var thursday: OpeningHoursByDay?
   @objc dynamic var tuesday: OpeningHoursByDay?
   @objc dynamic var wednesday: OpeningHoursByDay?

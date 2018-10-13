@@ -16,6 +16,11 @@ final class Atm: Object {
     case tagline = "tagline"
   }
 
+  enum Relationships: String {
+    case address = "address"
+    case openingHours = "openingHours"
+  }
+
   @objc dynamic var category: String?
   @objc dynamic var categoryText: String?
   @objc dynamic var imagePath: String?
@@ -24,5 +29,7 @@ final class Atm: Object {
   @objc dynamic var name: String?
   @objc dynamic var sonectId: String?
   @objc dynamic var tagline: String?
+  @objc dynamic var address: Address?
+  @objc dynamic var openingHours: OpeningHours?
 
 }
