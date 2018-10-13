@@ -63,6 +63,9 @@
 		BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844272172967100E5A427 /* OverallRating.swift */; };
 		BAF8442B2172967100E5A427 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844282172967100E5A427 /* Rating.swift */; };
 		BAF8442D2172A26C00E5A427 /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8442C2172A26C00E5A427 /* Sync.swift */; };
+		BAF8442F2172A87100E5A427 /* SonectWSClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */; };
+		BAF844312172AB0700E5A427 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61002172147600521FEA /* Environment.swift */; };
+		BAF844452172AD6500E5A427 /* AtmSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844442172AD6500E5A427 /* AtmSpec.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +155,8 @@
 		BAF844272172967100E5A427 /* OverallRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
 		BAF844282172967100E5A427 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		BAF8442C2172A26C00E5A427 /* Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
+		BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectWSClientTests.swift; sourceTree = "<group>"; };
+		BAF844442172AD6500E5A427 /* AtmSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmSpec.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +253,8 @@
 			children = (
 				BA117115217201B500042D43 /* atmatmTests.swift */,
 				BA117117217201B500042D43 /* Info.plist */,
+				BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */,
+				BAF844442172AD6500E5A427 /* AtmSpec.swift */,
 			);
 			path = atmatmTests;
 			sourceTree = "<group>";
@@ -593,6 +600,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
@@ -601,6 +610,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
@@ -797,6 +808,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF8442F2172A87100E5A427 /* SonectWSClientTests.swift in Sources */,
+				BAF844452172AD6500E5A427 /* AtmSpec.swift in Sources */,
+				BAF844312172AB0700E5A427 /* Environment.swift in Sources */,
 				BA117116217201B500042D43 /* atmatmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1009,6 +1023,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1031,6 +1046,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
