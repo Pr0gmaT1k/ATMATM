@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
-
+    private let disposeBag = DisposeBag()
+    private let sonectWS = SonectWSClient()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        sonectWS.getAtm().observeOn(MainScheduler.instance)
+        .subscribe { event in
+            switch event {
+            case .completed: break
+            case .error(let error): print(error)
+            case .next: break
+            }
+        }.disposed(by: disposeBag)
     }
-
-
 }
-
