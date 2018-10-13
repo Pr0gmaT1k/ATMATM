@@ -18,7 +18,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="DetailsCalloutView" id="i5M-Pr-FkT" customClass="DetailsCalloutView" customModule="atmatm" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="KJB-iA-2hC">
@@ -71,7 +71,7 @@
                 <outlet property="addressLabel" destination="klc-wj-CCg" id="ZZl-5V-GV4"/>
                 <outlet property="tableView" destination="4BT-eT-xps" id="mzN-6h-Or7"/>
             </connections>
-            <point key="canvasLocation" x="-1.6000000000000001" y="322.03898050974516"/>
+            <point key="canvasLocation" x="-1.6000000000000001" y="299.55022488755623"/>
         </view>
     </objects>
     <resources>

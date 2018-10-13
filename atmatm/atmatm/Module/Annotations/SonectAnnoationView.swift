@@ -27,7 +27,7 @@ final class SonectAnnoationView: MKAnnotationView, NibReusable {
         let widthConstraint = NSLayoutConstraint(item: myView, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 200)
         myView.addConstraint(widthConstraint)
         
-        let heightConstraint = NSLayoutConstraint(item: myView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 200)
+        let heightConstraint = NSLayoutConstraint(item: myView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 150)
         myView.addConstraint(heightConstraint)
         
         myView.fill(atm: atm)

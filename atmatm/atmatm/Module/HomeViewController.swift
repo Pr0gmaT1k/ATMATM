@@ -16,15 +16,26 @@ final class HomeViewController: UIViewController {
     // MARK:- IBOutlets
     @IBOutlet private weak var mapView: MKMapView!
     
+    // MARK:- IBAction
+    @IBAction func locateButtonDidTouch(_ sender: Any) {
+        self.mapView.setCenter(lastKnowedLoc.value, animated: true)
+    }
+    
     // MARK:- Private properties
     private let disposeBag = DisposeBag()
     private let sonectWS = SonectWSClient()
+    private let geoServ = GeolocationService.instance
+    private let lastKnowedLoc = Variable(CLLocationCoordinate2D())
     
     // MARK:- Public func
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
         self.mapView.register(SonectAnnoationView.self, forAnnotationViewWithReuseIdentifier: SonectAnnoationView.reuseIdentifier)
+        
+        geoServ.location
+            .drive(lastKnowedLoc)
+            .disposed(by: disposeBag)
         
         sonectWS.getAtm()
         .observeOn(MainScheduler.instance)

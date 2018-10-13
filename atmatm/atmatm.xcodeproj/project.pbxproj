@@ -56,6 +56,12 @@
 		BA9D6137217286EC00521FEA /* OpeningHoursTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9D6135217286EC00521FEA /* OpeningHoursTableViewCell.xib */; };
 		BA9D6138217286EC00521FEA /* OpeningHoursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6136217286EC00521FEA /* OpeningHoursTableViewCell.swift */; };
 		BA9D613A217288AE00521FEA /* OpeningHours+ArrayWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6139217288AE00521FEA /* OpeningHours+ArrayWeek.swift */; };
+		BAF844232172966600E5A427 /* RatingsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844202172966600E5A427 /* RatingsMapper.swift */; };
+		BAF844242172966600E5A427 /* OverallRatingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844212172966600E5A427 /* OverallRatingMapper.swift */; };
+		BAF844252172966600E5A427 /* RatingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844222172966600E5A427 /* RatingMapper.swift */; };
+		BAF844292172967100E5A427 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844262172967100E5A427 /* Ratings.swift */; };
+		BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844272172967100E5A427 /* OverallRating.swift */; };
+		BAF8442B2172967100E5A427 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844282172967100E5A427 /* Rating.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +144,12 @@
 		BA9D6135217286EC00521FEA /* OpeningHoursTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpeningHoursTableViewCell.xib; sourceTree = "<group>"; };
 		BA9D6136217286EC00521FEA /* OpeningHoursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursTableViewCell.swift; sourceTree = "<group>"; };
 		BA9D6139217288AE00521FEA /* OpeningHours+ArrayWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpeningHours+ArrayWeek.swift"; sourceTree = "<group>"; };
+		BAF844202172966600E5A427 /* RatingsMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsMapper.swift; sourceTree = "<group>"; };
+		BAF844212172966600E5A427 /* OverallRatingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRatingMapper.swift; sourceTree = "<group>"; };
+		BAF844222172966600E5A427 /* RatingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingMapper.swift; sourceTree = "<group>"; };
+		BAF844262172967100E5A427 /* Ratings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		BAF844272172967100E5A427 /* OverallRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
+		BAF844282172967100E5A427 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +290,9 @@
 		BA9D60CF21720C6200521FEA /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				BAF844212172966600E5A427 /* OverallRatingMapper.swift */,
+				BAF844222172966600E5A427 /* RatingMapper.swift */,
+				BAF844202172966600E5A427 /* RatingsMapper.swift */,
 				BA9D61082172205C00521FEA /* AddressMapper.swift */,
 				BA9D61072172205C00521FEA /* AtmMapper.swift */,
 				BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */,
@@ -289,6 +304,9 @@
 		BA9D60D021720C6200521FEA /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				BAF844272172967100E5A427 /* OverallRating.swift */,
+				BAF844282172967100E5A427 /* Rating.swift */,
+				BAF844262172967100E5A427 /* Ratings.swift */,
 				BA9D61102172206300521FEA /* Address.swift */,
 				BA9D610F2172206300521FEA /* Atm.swift */,
 				BA9D61112172206300521FEA /* OpeningHours.swift */,
@@ -738,8 +756,12 @@
 				BA9D6120217229B500521FEA /* GeolocationService.swift in Sources */,
 				BA9D612D21725A7800521FEA /* Colors.swift in Sources */,
 				BA9D613A217288AE00521FEA /* OpeningHours+ArrayWeek.swift in Sources */,
+				BAF844232172966600E5A427 /* RatingsMapper.swift in Sources */,
 				BA9D6138217286EC00521FEA /* OpeningHoursTableViewCell.swift in Sources */,
 				BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */,
+				BAF844242172966600E5A427 /* OverallRatingMapper.swift in Sources */,
+				BAF844292172967100E5A427 /* Ratings.swift in Sources */,
+				BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */,
 				BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */,
 				BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */,
 				BA9D611E217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift in Sources */,
@@ -758,10 +780,12 @@
 				BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */,
 				BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */,
 				BA9D61012172147600521FEA /* Environment.swift in Sources */,
+				BAF8442B2172967100E5A427 /* Rating.swift in Sources */,
 				BA9D611D217228B900521FEA /* CLLocationManager+Rx.swift in Sources */,
 				BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */,
 				BA9D6106217215FB00521FEA /* SonectRoutes.swift in Sources */,
 				BA9D612E21725A7800521FEA /* Strings.swift in Sources */,
+				BAF844252172966600E5A427 /* RatingMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
