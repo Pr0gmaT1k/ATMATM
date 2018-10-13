@@ -10,12 +10,27 @@
 		2CE4B2B10FA74392049ABE14 /* Pods_atmatmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA116E8D7B22C08F67F086B1 /* Pods_atmatmUITests.framework */; };
 		410397F8AAC004992F3A9451 /* Pods_atmatmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36665933BFB3840F6ABCE2C9 /* Pods_atmatmTests.framework */; };
 		BA117101217201B400042D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117100217201B400042D43 /* AppDelegate.swift */; };
-		BA117103217201B400042D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117102217201B400042D43 /* ViewController.swift */; };
-		BA117106217201B400042D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA117104217201B400042D43 /* Main.storyboard */; };
-		BA117108217201B500042D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA117107217201B500042D43 /* Assets.xcassets */; };
-		BA11710B217201B500042D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA117109217201B500042D43 /* LaunchScreen.storyboard */; };
 		BA117116217201B500042D43 /* atmatmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117115217201B500042D43 /* atmatmTests.swift */; };
 		BA117121217201B500042D43 /* atmatmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117120217201B500042D43 /* atmatmUITests.swift */; };
+		BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60CA21720C6200521FEA /* Main.storyboard */; };
+		BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CB21720C6200521FEA /* ViewController.swift */; };
+		BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CE21720C6200521FEA /* ListTransform.swift */; };
+		BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */; };
+		BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D521720C6200521FEA /* Assets.xcassets */; };
+		BA9D60F221720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D821720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf */; };
+		BA9D60F321720C6200521FEA /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D921720C6200521FEA /* OpenSans-Bold.ttf */; };
+		BA9D60F421720C6200521FEA /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DA21720C6200521FEA /* OpenSans-Italic.ttf */; };
+		BA9D60F521720C6200521FEA /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DB21720C6200521FEA /* OpenSans-ExtraBold.ttf */; };
+		BA9D60F621720C6200521FEA /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DC21720C6200521FEA /* LICENSE.txt */; };
+		BA9D60F721720C6200521FEA /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DD21720C6200521FEA /* OpenSans-LightItalic.ttf */; };
+		BA9D60F821720C6200521FEA /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DE21720C6200521FEA /* OpenSans-SemiBold.ttf */; };
+		BA9D60F921720C6200521FEA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60DF21720C6200521FEA /* OpenSans-Regular.ttf */; };
+		BA9D60FA21720C6200521FEA /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E021720C6200521FEA /* OpenSans-SemiBoldItalic.ttf */; };
+		BA9D60FB21720C6200521FEA /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E121720C6200521FEA /* OpenSans-BoldItalic.ttf */; };
+		BA9D60FC21720C6200521FEA /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E221720C6200521FEA /* OpenSans-Light.ttf */; };
+		BA9D60FD21720C6200521FEA /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E521720C6200521FEA /* Colors.txt */; };
+		BA9D60FE21720C6200521FEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E621720C6200521FEA /* Localizable.strings */; };
+		BA9D60FF21720C6200521FEA /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60EB21720C6200521FEA /* Realm.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,17 +62,32 @@
 		BA116E8D7B22C08F67F086B1 /* Pods_atmatmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_atmatmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1170FD217201B400042D43 /* atmatm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atmatm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA117100217201B400042D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA117102217201B400042D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA117105217201B400042D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA117107217201B500042D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA11710A217201B500042D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BA11710C217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA117111217201B500042D43 /* atmatmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atmatmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA117115217201B500042D43 /* atmatmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmatmTests.swift; sourceTree = "<group>"; };
 		BA117117217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA11711C217201B500042D43 /* atmatmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atmatmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA117120217201B500042D43 /* atmatmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmatmUITests.swift; sourceTree = "<group>"; };
 		BA117122217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9D60CA21720C6200521FEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA9D60CB21720C6200521FEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA9D60CE21720C6200521FEA /* ListTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransform.swift; sourceTree = "<group>"; };
+		BA9D60D321720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA9D60D421720C6200521FEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9D60D521720C6200521FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9D60D821720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BA9D60D921720C6200521FEA /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		BA9D60DA21720C6200521FEA /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		BA9D60DB21720C6200521FEA /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BA9D60DC21720C6200521FEA /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BA9D60DD21720C6200521FEA /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		BA9D60DE21720C6200521FEA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA9D60DF21720C6200521FEA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		BA9D60E021720C6200521FEA /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		BA9D60E121720C6200521FEA /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BA9D60E221720C6200521FEA /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		BA9D60E521720C6200521FEA /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		BA9D60E721720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA9D60EB21720C6200521FEA /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,12 +167,14 @@
 		BA1170FF217201B400042D43 /* atmatm */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D60E421720C6200521FEA /* Constants */,
+				BA9D60E821720C6200521FEA /* Environments */,
+				BA9D60EA21720C6200521FEA /* Extentions */,
+				BA9D60CC21720C6200521FEA /* Models */,
+				BA9D60C921720C6200521FEA /* Module */,
+				BA9D60D121720C6200521FEA /* Ressources */,
+				BA9D60E321720C6200521FEA /* Services */,
 				BA117100217201B400042D43 /* AppDelegate.swift */,
-				BA117102217201B400042D43 /* ViewController.swift */,
-				BA117104217201B400042D43 /* Main.storyboard */,
-				BA117107217201B500042D43 /* Assets.xcassets */,
-				BA117109217201B500042D43 /* LaunchScreen.storyboard */,
-				BA11710C217201B500042D43 /* Info.plist */,
 			);
 			path = atmatm;
 			sourceTree = "<group>";
@@ -165,6 +197,123 @@
 			path = atmatmUITests;
 			sourceTree = "<group>";
 		};
+		BA9D60C921720C6200521FEA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60CA21720C6200521FEA /* Main.storyboard */,
+				BA9D60CB21720C6200521FEA /* ViewController.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BA9D60CC21720C6200521FEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60CD21720C6200521FEA /* Transform */,
+				BA9D60CF21720C6200521FEA /* Mapper */,
+				BA9D60D021720C6200521FEA /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA9D60CD21720C6200521FEA /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60CE21720C6200521FEA /* ListTransform.swift */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		BA9D60CF21720C6200521FEA /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		BA9D60D021720C6200521FEA /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BA9D60D121720C6200521FEA /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */,
+				BA9D60D421720C6200521FEA /* Info.plist */,
+				BA9D60D521720C6200521FEA /* Assets.xcassets */,
+				BA9D60D621720C6200521FEA /* Font */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		BA9D60D621720C6200521FEA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60D721720C6200521FEA /* Open_Sans */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BA9D60D721720C6200521FEA /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60D821720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf */,
+				BA9D60D921720C6200521FEA /* OpenSans-Bold.ttf */,
+				BA9D60DA21720C6200521FEA /* OpenSans-Italic.ttf */,
+				BA9D60DB21720C6200521FEA /* OpenSans-ExtraBold.ttf */,
+				BA9D60DC21720C6200521FEA /* LICENSE.txt */,
+				BA9D60DD21720C6200521FEA /* OpenSans-LightItalic.ttf */,
+				BA9D60DE21720C6200521FEA /* OpenSans-SemiBold.ttf */,
+				BA9D60DF21720C6200521FEA /* OpenSans-Regular.ttf */,
+				BA9D60E021720C6200521FEA /* OpenSans-SemiBoldItalic.ttf */,
+				BA9D60E121720C6200521FEA /* OpenSans-BoldItalic.ttf */,
+				BA9D60E221720C6200521FEA /* OpenSans-Light.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
+		BA9D60E321720C6200521FEA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA9D60E421720C6200521FEA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60E521720C6200521FEA /* Colors.txt */,
+				BA9D60E621720C6200521FEA /* Localizable.strings */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BA9D60E821720C6200521FEA /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60E921720C6200521FEA /* dev */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		BA9D60E921720C6200521FEA /* dev */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		BA9D60EA21720C6200521FEA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D60EB21720C6200521FEA /* Realm.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +322,8 @@
 			buildConfigurationList = BA117125217201B500042D43 /* Build configuration list for PBXNativeTarget "atmatm" */;
 			buildPhases = (
 				1C50B4F760D168702CFA571A /* [CP] Check Pods Manifest.lock */,
+				BAC57C662172085F00EE1CFD /* SwiftGen */,
+				BAC57C652172085D00EE1CFD /* SwiftLint */,
 				BA1170F9217201B400042D43 /* Sources */,
 				BA1170FA217201B400042D43 /* Frameworks */,
 				BA1170FB217201B400042D43 /* Resources */,
@@ -274,9 +425,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA11710B217201B500042D43 /* LaunchScreen.storyboard in Resources */,
-				BA117108217201B500042D43 /* Assets.xcassets in Resources */,
-				BA117106217201B400042D43 /* Main.storyboard in Resources */,
+				BA9D60FE21720C6200521FEA /* Localizable.strings in Resources */,
+				BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */,
+				BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */,
+				BA9D60F821720C6200521FEA /* OpenSans-SemiBold.ttf in Resources */,
+				BA9D60FC21720C6200521FEA /* OpenSans-Light.ttf in Resources */,
+				BA9D60FA21720C6200521FEA /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				BA9D60F321720C6200521FEA /* OpenSans-Bold.ttf in Resources */,
+				BA9D60F621720C6200521FEA /* LICENSE.txt in Resources */,
+				BA9D60F721720C6200521FEA /* OpenSans-LightItalic.ttf in Resources */,
+				BA9D60F521720C6200521FEA /* OpenSans-ExtraBold.ttf in Resources */,
+				BA9D60F221720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				BA9D60FD21720C6200521FEA /* Colors.txt in Resources */,
+				BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */,
+				BA9D60FB21720C6200521FEA /* OpenSans-BoldItalic.ttf in Resources */,
+				BA9D60F921720C6200521FEA /* OpenSans-Regular.ttf in Resources */,
+				BA9D60F421720C6200521FEA /* OpenSans-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,10 +498,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-atmatm/Pods-atmatm-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NetworkStack/NetworkStack.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
@@ -350,10 +512,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkStack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
@@ -409,6 +569,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BAC57C652172085D00EE1CFD /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		BAC57C662172085F00EE1CFD /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SRCDIR=\"$PROJECT_DIR/atmatm\"\n$PODS_ROOT/SwiftGen/bin/swiftgen storyboards -t swift3 \"$SRCDIR\" --output \"$SRCDIR/Constants/Storyboards.swift\"\n$PODS_ROOT/SwiftGen/bin/swiftgen xcassets -t swift3 \"$SRCDIR/Ressources/Assets.xcassets\" --output \"$SRCDIR/Constants/Images.swift\"\n$PODS_ROOT/SwiftGen/bin/swiftgen strings -t structured-swift3 \"$SRCDIR/Constants/Base.lproj/Localizable.strings\" --output \"$SRCDIR/Constants/Strings.swift\"\n$PODS_ROOT/SwiftGen/bin/swiftgen colors -t swift3 \"$SRCDIR/Constants/Colors.txt\" --output \"$SRCDIR/Constants/Colors.swift\"\n";
+		};
 		F53399D65820FE24CF9A9017 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,8 +634,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA117103217201B400042D43 /* ViewController.swift in Sources */,
+				BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */,
+				BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */,
 				BA117101217201B400042D43 /* AppDelegate.swift in Sources */,
+				BA9D60FF21720C6200521FEA /* Realm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,20 +673,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA117104217201B400042D43 /* Main.storyboard */ = {
+		BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA117105217201B400042D43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BA117109217201B500042D43 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA11710A217201B500042D43 /* Base */,
+				BA9D60D321720C6200521FEA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA9D60E621720C6200521FEA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9D60E721720C6200521FEA /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -617,7 +815,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
-				INFOPLIST_FILE = atmatm/Info.plist;
+				INFOPLIST_FILE = atmatm/Ressources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,7 +835,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
-				INFOPLIST_FILE = atmatm/Info.plist;
+				INFOPLIST_FILE = atmatm/Ressources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,8 +11,6 @@ target ‘atmatm’ do
   pod 'SwiftGen'
   pod 'RxSwift'
   pod 'RxCocoa'
-  pod 'Kingfisher'
-  pod 'PageMenu'
 
   target ‘atmatmTests’ do
     inherit! :search_paths
