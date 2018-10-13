@@ -21,13 +21,13 @@ final class SonectWSClient {
                                                        keychainService: keychainService)
     
     /// MARK:- GET
-    func getAtm() -> Observable<Void> {
+    func getAtm() -> Observable<[Atm]?> {
         let requestParameters = RequestParameters(method: .get,
                                                   route: SonectRoutes.getATM)
         
         return SonectWSClient.networkStack.sendRequestWithJSONResponse(requestParameters: requestParameters)
-            .map({ (_, json) -> Void in
-                print(json)
+            .map({ (_, json) in
+                return Mapper<Atm>().mapArray(JSONObject: json)
             })
     }
 }

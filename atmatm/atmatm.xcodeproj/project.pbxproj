@@ -13,7 +13,6 @@
 		BA117116217201B500042D43 /* atmatmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117115217201B500042D43 /* atmatmTests.swift */; };
 		BA117121217201B500042D43 /* atmatmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117120217201B500042D43 /* atmatmUITests.swift */; };
 		BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60CA21720C6200521FEA /* Main.storyboard */; };
-		BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CB21720C6200521FEA /* ViewController.swift */; };
 		BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CE21720C6200521FEA /* ListTransform.swift */; };
 		BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */; };
 		BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D521720C6200521FEA /* Assets.xcassets */; };
@@ -42,6 +41,7 @@
 		BA9D61142172206300521FEA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61102172206300521FEA /* Address.swift */; };
 		BA9D61152172206300521FEA /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61112172206300521FEA /* OpeningHours.swift */; };
 		BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61122172206300521FEA /* OpeningHoursByDay.swift */; };
+		BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6117217221AF00521FEA /* HomeViewController.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +80,6 @@
 		BA117120217201B500042D43 /* atmatmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmatmUITests.swift; sourceTree = "<group>"; };
 		BA117122217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9D60CA21720C6200521FEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BA9D60CB21720C6200521FEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA9D60CE21720C6200521FEA /* ListTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransform.swift; sourceTree = "<group>"; };
 		BA9D60D321720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9D60D421720C6200521FEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		BA9D61102172206300521FEA /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		BA9D61112172206300521FEA /* OpeningHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
 		BA9D61122172206300521FEA /* OpeningHoursByDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursByDay.swift; sourceTree = "<group>"; };
+		BA9D6117217221AF00521FEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9D60CA21720C6200521FEA /* Main.storyboard */,
-				BA9D60CB21720C6200521FEA /* ViewController.swift */,
+				BA9D6117217221AF00521FEA /* HomeViewController.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -683,9 +683,9 @@
 				BA9D61132172206300521FEA /* Atm.swift in Sources */,
 				BA9D610C2172205C00521FEA /* AddressMapper.swift in Sources */,
 				BA9D610B2172205C00521FEA /* AtmMapper.swift in Sources */,
-				BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */,
 				BA117101217201B400042D43 /* AppDelegate.swift in Sources */,
 				BA9D60FF21720C6200521FEA /* Realm.swift in Sources */,
+				BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */,
 				BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */,
 				BA9D61012172147600521FEA /* Environment.swift in Sources */,
 				BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */,
