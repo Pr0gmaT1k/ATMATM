@@ -17,6 +17,8 @@ target ‘atmatm’ do
     # Pods for testing
   pod 'RxBlocking'  
   pod 'RxTest' 
+  pod 'Quick' 
+  pod 'Nimble' 
   end
 
   target ‘atmatmUITests' do
