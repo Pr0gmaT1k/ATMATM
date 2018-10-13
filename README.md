@@ -17,7 +17,7 @@ ATMATM (ATM at the moment)
 - Persistence: Realm. 
 - RxTest, as usual for the WebServiceClient.
 - Quick / Nimble to test the model and the parser
-- RxCocoa for the usefull searchbar & tableView.
+- RxCocoa for the tableView.
 
 ### License
 
