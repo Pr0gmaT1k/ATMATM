@@ -1,3 +1,1 @@
-MainColor: #d500f9
-IssueColor: #d32f2f
-ClosedIssueColor: #4caf50
+MainColor: #388e3c

@@ -13,7 +13,6 @@
 		BA117116217201B500042D43 /* atmatmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117115217201B500042D43 /* atmatmTests.swift */; };
 		BA117121217201B500042D43 /* atmatmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117120217201B500042D43 /* atmatmUITests.swift */; };
 		BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60CA21720C6200521FEA /* Main.storyboard */; };
-		BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CB21720C6200521FEA /* ViewController.swift */; };
 		BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CE21720C6200521FEA /* ListTransform.swift */; };
 		BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */; };
 		BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D521720C6200521FEA /* Assets.xcassets */; };
@@ -31,6 +30,42 @@
 		BA9D60FD21720C6200521FEA /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E521720C6200521FEA /* Colors.txt */; };
 		BA9D60FE21720C6200521FEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E621720C6200521FEA /* Localizable.strings */; };
 		BA9D60FF21720C6200521FEA /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60EB21720C6200521FEA /* Realm.swift */; };
+		BA9D61012172147600521FEA /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61002172147600521FEA /* Environment.swift */; };
+		BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61032172158A00521FEA /* SonectWSClient.swift */; };
+		BA9D6106217215FB00521FEA /* SonectRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6105217215FB00521FEA /* SonectRoutes.swift */; };
+		BA9D610B2172205C00521FEA /* AtmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61072172205C00521FEA /* AtmMapper.swift */; };
+		BA9D610C2172205C00521FEA /* AddressMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61082172205C00521FEA /* AddressMapper.swift */; };
+		BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */; };
+		BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */; };
+		BA9D61132172206300521FEA /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D610F2172206300521FEA /* Atm.swift */; };
+		BA9D61142172206300521FEA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61102172206300521FEA /* Address.swift */; };
+		BA9D61152172206300521FEA /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61112172206300521FEA /* OpeningHours.swift */; };
+		BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61122172206300521FEA /* OpeningHoursByDay.swift */; };
+		BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6117217221AF00521FEA /* HomeViewController.swift */; };
+		BA9D611D217228B900521FEA /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D611B217228B900521FEA /* CLLocationManager+Rx.swift */; };
+		BA9D611E217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D611C217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift */; };
+		BA9D6120217229B500521FEA /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D611F217229B500521FEA /* GeolocationService.swift */; };
+		BA9D61232172566B00521FEA /* SonectAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61222172566B00521FEA /* SonectAnnotation.swift */; };
+		BA9D61272172596600521FEA /* SonectAnnoationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61252172596600521FEA /* SonectAnnoationView.swift */; };
+		BA9D612C21725A7800521FEA /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D612821725A7800521FEA /* Storyboards.swift */; };
+		BA9D612D21725A7800521FEA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D612921725A7800521FEA /* Colors.swift */; };
+		BA9D612E21725A7800521FEA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D612A21725A7800521FEA /* Strings.swift */; };
+		BA9D612F21725A7800521FEA /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D612B21725A7800521FEA /* Images.swift */; };
+		BA9D61322172785B00521FEA /* DetailsCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9D61302172785B00521FEA /* DetailsCalloutView.xib */; };
+		BA9D61332172785B00521FEA /* DetailsCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61312172785B00521FEA /* DetailsCalloutView.swift */; };
+		BA9D6137217286EC00521FEA /* OpeningHoursTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9D6135217286EC00521FEA /* OpeningHoursTableViewCell.xib */; };
+		BA9D6138217286EC00521FEA /* OpeningHoursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6136217286EC00521FEA /* OpeningHoursTableViewCell.swift */; };
+		BA9D613A217288AE00521FEA /* OpeningHours+ArrayWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6139217288AE00521FEA /* OpeningHours+ArrayWeek.swift */; };
+		BAF844232172966600E5A427 /* RatingsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844202172966600E5A427 /* RatingsMapper.swift */; };
+		BAF844242172966600E5A427 /* OverallRatingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844212172966600E5A427 /* OverallRatingMapper.swift */; };
+		BAF844252172966600E5A427 /* RatingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844222172966600E5A427 /* RatingMapper.swift */; };
+		BAF844292172967100E5A427 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844262172967100E5A427 /* Ratings.swift */; };
+		BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844272172967100E5A427 /* OverallRating.swift */; };
+		BAF8442B2172967100E5A427 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844282172967100E5A427 /* Rating.swift */; };
+		BAF8442D2172A26C00E5A427 /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8442C2172A26C00E5A427 /* Sync.swift */; };
+		BAF8442F2172A87100E5A427 /* SonectWSClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */; };
+		BAF844312172AB0700E5A427 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61002172147600521FEA /* Environment.swift */; };
+		BAF844452172AD6500E5A427 /* AtmSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844442172AD6500E5A427 /* AtmSpec.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +104,6 @@
 		BA117120217201B500042D43 /* atmatmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmatmUITests.swift; sourceTree = "<group>"; };
 		BA117122217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9D60CA21720C6200521FEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BA9D60CB21720C6200521FEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA9D60CE21720C6200521FEA /* ListTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransform.swift; sourceTree = "<group>"; };
 		BA9D60D321720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9D60D421720C6200521FEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +122,41 @@
 		BA9D60E521720C6200521FEA /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		BA9D60E721720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA9D60EB21720C6200521FEA /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		BA9D61002172147600521FEA /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		BA9D61032172158A00521FEA /* SonectWSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectWSClient.swift; sourceTree = "<group>"; };
+		BA9D6105217215FB00521FEA /* SonectRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectRoutes.swift; sourceTree = "<group>"; };
+		BA9D61072172205C00521FEA /* AtmMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmMapper.swift; sourceTree = "<group>"; };
+		BA9D61082172205C00521FEA /* AddressMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressMapper.swift; sourceTree = "<group>"; };
+		BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursByDayMapper.swift; sourceTree = "<group>"; };
+		BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursMapper.swift; sourceTree = "<group>"; };
+		BA9D610F2172206300521FEA /* Atm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
+		BA9D61102172206300521FEA /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		BA9D61112172206300521FEA /* OpeningHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
+		BA9D61122172206300521FEA /* OpeningHoursByDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursByDay.swift; sourceTree = "<group>"; };
+		BA9D6117217221AF00521FEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA9D611B217228B900521FEA /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		BA9D611C217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		BA9D611F217229B500521FEA /* GeolocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
+		BA9D61222172566B00521FEA /* SonectAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectAnnotation.swift; sourceTree = "<group>"; };
+		BA9D61252172596600521FEA /* SonectAnnoationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectAnnoationView.swift; sourceTree = "<group>"; };
+		BA9D612821725A7800521FEA /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		BA9D612921725A7800521FEA /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BA9D612A21725A7800521FEA /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BA9D612B21725A7800521FEA /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		BA9D61302172785B00521FEA /* DetailsCalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCalloutView.xib; sourceTree = "<group>"; };
+		BA9D61312172785B00521FEA /* DetailsCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCalloutView.swift; sourceTree = "<group>"; };
+		BA9D6135217286EC00521FEA /* OpeningHoursTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpeningHoursTableViewCell.xib; sourceTree = "<group>"; };
+		BA9D6136217286EC00521FEA /* OpeningHoursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursTableViewCell.swift; sourceTree = "<group>"; };
+		BA9D6139217288AE00521FEA /* OpeningHours+ArrayWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpeningHours+ArrayWeek.swift"; sourceTree = "<group>"; };
+		BAF844202172966600E5A427 /* RatingsMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsMapper.swift; sourceTree = "<group>"; };
+		BAF844212172966600E5A427 /* OverallRatingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRatingMapper.swift; sourceTree = "<group>"; };
+		BAF844222172966600E5A427 /* RatingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingMapper.swift; sourceTree = "<group>"; };
+		BAF844262172967100E5A427 /* Ratings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		BAF844272172967100E5A427 /* OverallRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
+		BAF844282172967100E5A427 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		BAF8442C2172A26C00E5A427 /* Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
+		BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectWSClientTests.swift; sourceTree = "<group>"; };
+		BAF844442172AD6500E5A427 /* AtmSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmSpec.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,11 +238,11 @@
 			children = (
 				BA9D60E421720C6200521FEA /* Constants */,
 				BA9D60E821720C6200521FEA /* Environments */,
+				BA9D60E321720C6200521FEA /* Services */,
 				BA9D60EA21720C6200521FEA /* Extentions */,
 				BA9D60CC21720C6200521FEA /* Models */,
 				BA9D60C921720C6200521FEA /* Module */,
 				BA9D60D121720C6200521FEA /* Ressources */,
-				BA9D60E321720C6200521FEA /* Services */,
 				BA117100217201B400042D43 /* AppDelegate.swift */,
 			);
 			path = atmatm;
@@ -184,6 +253,8 @@
 			children = (
 				BA117115217201B500042D43 /* atmatmTests.swift */,
 				BA117117217201B500042D43 /* Info.plist */,
+				BAF8442E2172A87100E5A427 /* SonectWSClientTests.swift */,
+				BAF844442172AD6500E5A427 /* AtmSpec.swift */,
 			);
 			path = atmatmTests;
 			sourceTree = "<group>";
@@ -200,8 +271,9 @@
 		BA9D60C921720C6200521FEA /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61212172564600521FEA /* Annotations */,
 				BA9D60CA21720C6200521FEA /* Main.storyboard */,
-				BA9D60CB21720C6200521FEA /* ViewController.swift */,
+				BA9D6117217221AF00521FEA /* HomeViewController.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -227,6 +299,13 @@
 		BA9D60CF21720C6200521FEA /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				BAF844212172966600E5A427 /* OverallRatingMapper.swift */,
+				BAF844222172966600E5A427 /* RatingMapper.swift */,
+				BAF844202172966600E5A427 /* RatingsMapper.swift */,
+				BA9D61082172205C00521FEA /* AddressMapper.swift */,
+				BA9D61072172205C00521FEA /* AtmMapper.swift */,
+				BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */,
+				BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -234,6 +313,13 @@
 		BA9D60D021720C6200521FEA /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				BAF844272172967100E5A427 /* OverallRating.swift */,
+				BAF844282172967100E5A427 /* Rating.swift */,
+				BAF844262172967100E5A427 /* Ratings.swift */,
+				BA9D61102172206300521FEA /* Address.swift */,
+				BA9D610F2172206300521FEA /* Atm.swift */,
+				BA9D61112172206300521FEA /* OpeningHours.swift */,
+				BA9D61122172206300521FEA /* OpeningHoursByDay.swift */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -278,6 +364,9 @@
 		BA9D60E321720C6200521FEA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D611F217229B500521FEA /* GeolocationService.swift */,
+				BA9D61022172157400521FEA /* SonectWS */,
+				BAF8442C2172A26C00E5A427 /* Sync.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -285,6 +374,10 @@
 		BA9D60E421720C6200521FEA /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D612921725A7800521FEA /* Colors.swift */,
+				BA9D612B21725A7800521FEA /* Images.swift */,
+				BA9D612821725A7800521FEA /* Storyboards.swift */,
+				BA9D612A21725A7800521FEA /* Strings.swift */,
 				BA9D60E521720C6200521FEA /* Colors.txt */,
 				BA9D60E621720C6200521FEA /* Localizable.strings */,
 			);
@@ -302,6 +395,7 @@
 		BA9D60E921720C6200521FEA /* dev */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61002172147600521FEA /* Environment.swift */,
 			);
 			path = dev;
 			sourceTree = "<group>";
@@ -309,9 +403,42 @@
 		BA9D60EA21720C6200521FEA /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D611B217228B900521FEA /* CLLocationManager+Rx.swift */,
+				BA9D611C217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift */,
 				BA9D60EB21720C6200521FEA /* Realm.swift */,
+				BA9D6139217288AE00521FEA /* OpeningHours+ArrayWeek.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		BA9D61022172157400521FEA /* SonectWS */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D61032172158A00521FEA /* SonectWSClient.swift */,
+				BA9D6105217215FB00521FEA /* SonectRoutes.swift */,
+			);
+			path = SonectWS;
+			sourceTree = "<group>";
+		};
+		BA9D61212172564600521FEA /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D6134217286B900521FEA /* OpeningHoursTVC */,
+				BA9D61222172566B00521FEA /* SonectAnnotation.swift */,
+				BA9D61252172596600521FEA /* SonectAnnoationView.swift */,
+				BA9D61302172785B00521FEA /* DetailsCalloutView.xib */,
+				BA9D61312172785B00521FEA /* DetailsCalloutView.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		BA9D6134217286B900521FEA /* OpeningHoursTVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D6135217286EC00521FEA /* OpeningHoursTableViewCell.xib */,
+				BA9D6136217286EC00521FEA /* OpeningHoursTableViewCell.swift */,
+			);
+			path = OpeningHoursTVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +552,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9D6137217286EC00521FEA /* OpeningHoursTableViewCell.xib in Resources */,
 				BA9D60FE21720C6200521FEA /* Localizable.strings in Resources */,
 				BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */,
 				BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */,
@@ -435,6 +563,7 @@
 				BA9D60F621720C6200521FEA /* LICENSE.txt in Resources */,
 				BA9D60F721720C6200521FEA /* OpenSans-LightItalic.ttf in Resources */,
 				BA9D60F521720C6200521FEA /* OpenSans-ExtraBold.ttf in Resources */,
+				BA9D61322172785B00521FEA /* DetailsCalloutView.xib in Resources */,
 				BA9D60F221720C6200521FEA /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				BA9D60FD21720C6200521FEA /* Colors.txt in Resources */,
 				BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */,
@@ -471,6 +600,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
@@ -479,6 +610,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
@@ -634,10 +767,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9D6120217229B500521FEA /* GeolocationService.swift in Sources */,
+				BA9D612D21725A7800521FEA /* Colors.swift in Sources */,
+				BA9D613A217288AE00521FEA /* OpeningHours+ArrayWeek.swift in Sources */,
+				BAF844232172966600E5A427 /* RatingsMapper.swift in Sources */,
+				BA9D6138217286EC00521FEA /* OpeningHoursTableViewCell.swift in Sources */,
 				BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */,
-				BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */,
+				BAF844242172966600E5A427 /* OverallRatingMapper.swift in Sources */,
+				BAF844292172967100E5A427 /* Ratings.swift in Sources */,
+				BAF8442D2172A26C00E5A427 /* Sync.swift in Sources */,
+				BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */,
+				BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */,
+				BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */,
+				BA9D611E217228B900521FEA /* RxCLLocationManagerDelegateProxy.swift in Sources */,
+				BA9D61152172206300521FEA /* OpeningHours.swift in Sources */,
+				BA9D612C21725A7800521FEA /* Storyboards.swift in Sources */,
+				BA9D61272172596600521FEA /* SonectAnnoationView.swift in Sources */,
+				BA9D61332172785B00521FEA /* DetailsCalloutView.swift in Sources */,
+				BA9D61142172206300521FEA /* Address.swift in Sources */,
+				BA9D61132172206300521FEA /* Atm.swift in Sources */,
+				BA9D610C2172205C00521FEA /* AddressMapper.swift in Sources */,
+				BA9D61232172566B00521FEA /* SonectAnnotation.swift in Sources */,
+				BA9D612F21725A7800521FEA /* Images.swift in Sources */,
+				BA9D610B2172205C00521FEA /* AtmMapper.swift in Sources */,
 				BA117101217201B400042D43 /* AppDelegate.swift in Sources */,
 				BA9D60FF21720C6200521FEA /* Realm.swift in Sources */,
+				BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */,
+				BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */,
+				BA9D61012172147600521FEA /* Environment.swift in Sources */,
+				BAF8442B2172967100E5A427 /* Rating.swift in Sources */,
+				BA9D611D217228B900521FEA /* CLLocationManager+Rx.swift in Sources */,
+				BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */,
+				BA9D6106217215FB00521FEA /* SonectRoutes.swift in Sources */,
+				BA9D612E21725A7800521FEA /* Strings.swift in Sources */,
+				BAF844252172966600E5A427 /* RatingMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +808,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF8442F2172A87100E5A427 /* SonectWSClientTests.swift in Sources */,
+				BAF844452172AD6500E5A427 /* AtmSpec.swift in Sources */,
+				BAF844312172AB0700E5A427 /* Environment.swift in Sources */,
 				BA117116217201B500042D43 /* atmatmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -816,7 +982,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatm/Ressources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -836,7 +1002,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatm/Ressources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -857,6 +1023,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -879,6 +1046,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9R85VATVL;
 				INFOPLIST_FILE = atmatmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
