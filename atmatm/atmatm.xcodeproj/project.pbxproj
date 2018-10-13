@@ -62,6 +62,7 @@
 		BAF844292172967100E5A427 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844262172967100E5A427 /* Ratings.swift */; };
 		BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844272172967100E5A427 /* OverallRating.swift */; };
 		BAF8442B2172967100E5A427 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF844282172967100E5A427 /* Rating.swift */; };
+		BAF8442D2172A26C00E5A427 /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8442C2172A26C00E5A427 /* Sync.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +151,7 @@
 		BAF844262172967100E5A427 /* Ratings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
 		BAF844272172967100E5A427 /* OverallRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRating.swift; sourceTree = "<group>"; };
 		BAF844282172967100E5A427 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		BAF8442C2172A26C00E5A427 /* Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -357,6 +359,7 @@
 			children = (
 				BA9D611F217229B500521FEA /* GeolocationService.swift */,
 				BA9D61022172157400521FEA /* SonectWS */,
+				BAF8442C2172A26C00E5A427 /* Sync.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -761,6 +764,7 @@
 				BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */,
 				BAF844242172966600E5A427 /* OverallRatingMapper.swift in Sources */,
 				BAF844292172967100E5A427 /* Ratings.swift in Sources */,
+				BAF8442D2172A26C00E5A427 /* Sync.swift in Sources */,
 				BAF8442A2172967100E5A427 /* OverallRating.swift in Sources */,
 				BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */,
 				BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */,

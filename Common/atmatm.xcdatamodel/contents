@@ -13,13 +13,12 @@
         <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sonectId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="tagline" optional="YES" attributeType="String" syncable="YES">
-            <userInfo>
-                <entry key="identityAttribute" value="sonectId"/>
-            </userInfo>
-        </attribute>
+        <attribute name="tagline" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Address" syncable="YES"/>
         <relationship name="openingHours" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHours" syncable="YES"/>
+        <userInfo>
+            <entry key="identityAttribute" value="sonectId"/>
+        </userInfo>
     </entity>
     <entity name="OpeningHours" representedClassName="OpeningHours" syncable="YES" codeGenerationType="class">
         <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
@@ -77,8 +76,8 @@
         <element name="Atm" positionX="-63" positionY="-18" width="128" height="195"/>
         <element name="OpeningHours" positionX="-36" positionY="63" width="128" height="165"/>
         <element name="OpeningHoursByDay" positionX="-18" positionY="72" width="128" height="75"/>
-        <element name="Ratings" positionX="-36" positionY="90" width="128" height="75"/>
         <element name="OverallRating" positionX="-27" positionY="99" width="128" height="120"/>
         <element name="Rating" positionX="-18" positionY="108" width="128" height="105"/>
+        <element name="Ratings" positionX="-36" positionY="90" width="128" height="75"/>
     </elements>
 </model>
