@@ -7,7 +7,7 @@ ATMATM (ATM at the moment)
 
 
 ### Demo
-![Demo](https://raw.githubusercontent.com/Pr0gmaT1k/atmatm/dev/demo.gif)
+![Demo](https://raw.githubusercontent.com/Pr0gmaT1k/ATMATM/master/demo.gif)
 
 ### Skeleton:
 - Dependency manager: CocoaPods
