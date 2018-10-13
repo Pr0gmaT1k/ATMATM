@@ -7,24 +7,31 @@
 //
 
 import UIKit
+import MapKit
+import RxSwift
 
-class HomeViewController: UIViewController {
-
+/// The main VC (the first) who show the atm on the map.
+final class HomeViewController: UIViewController {
+    // MARK:- IBOutlets
+    @IBOutlet private weak var mapView: MKMapView!
+    
+    // MARK:- Private properties
+    private let disposeBag = DisposeBag()
+    private let sonectWS = SonectWSClient()
+    
+    // MARK:- Public func
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        sonectWS.getAtm()
+        .observeOn(MainScheduler.instance)
+        .subscribe { event in
+            switch event {
+            case .completed: break
+            case .error(let error): print(error)
+            case .next(let atms):
+                print(atms)
+            }
+        }.disposed(by: disposeBag)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
