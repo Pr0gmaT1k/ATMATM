@@ -12,9 +12,9 @@ if [ ! -d "$DATAMODEL_PATH" ]; then
 	exit 1
 fi
 
-MODEL_OUTPUT_DIR=$(dirname $0)/../issoues/issoues/Models/Realm
+MODEL_OUTPUT_DIR=$(dirname $0)/../atmatm/atmatm/Models/Realm
 gyro --model "$DATAMODEL_PATH" --output "$MODEL_OUTPUT_DIR" -t swift4
 
 
-MAPPER_OUTPUT_DIR=$(dirname $0)/../issoues/issoues/Models/Mapper
+MAPPER_OUTPUT_DIR=$(dirname $0)/../atmatm/atmatm/Models/Mapper
 gyro --model "$DATAMODEL_PATH" --output "$MAPPER_OUTPUT_DIR" -t object-mapper
