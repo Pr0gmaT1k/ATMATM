@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.3'
+
+target ‘atmatm’ do
+  use_frameworks!
+  pod 'NetworkStack'
+  pod 'RealmSwift'
+  pod 'Reusable'
+  pod 'ObjectMapper'
+  pod 'SwiftLint'
+  pod 'SwiftGen'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Kingfisher'
+  pod 'PageMenu'
+
+  target ‘atmatmTests’ do
+    inherit! :search_paths
+    # Pods for testing
+  pod 'RxBlocking'  
+  pod 'RxTest' 
+  end
+
+  target ‘atmatmUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
