@@ -13,7 +13,6 @@
 		BA117116217201B500042D43 /* atmatmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117115217201B500042D43 /* atmatmTests.swift */; };
 		BA117121217201B500042D43 /* atmatmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA117120217201B500042D43 /* atmatmUITests.swift */; };
 		BA9D60EC21720C6200521FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60CA21720C6200521FEA /* Main.storyboard */; };
-		BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CB21720C6200521FEA /* ViewController.swift */; };
 		BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60CE21720C6200521FEA /* ListTransform.swift */; };
 		BA9D60EF21720C6200521FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D221720C6200521FEA /* LaunchScreen.storyboard */; };
 		BA9D60F121720C6200521FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60D521720C6200521FEA /* Assets.xcassets */; };
@@ -31,6 +30,18 @@
 		BA9D60FD21720C6200521FEA /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E521720C6200521FEA /* Colors.txt */; };
 		BA9D60FE21720C6200521FEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9D60E621720C6200521FEA /* Localizable.strings */; };
 		BA9D60FF21720C6200521FEA /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D60EB21720C6200521FEA /* Realm.swift */; };
+		BA9D61012172147600521FEA /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61002172147600521FEA /* Environment.swift */; };
+		BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61032172158A00521FEA /* SonectWSClient.swift */; };
+		BA9D6106217215FB00521FEA /* SonectRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6105217215FB00521FEA /* SonectRoutes.swift */; };
+		BA9D610B2172205C00521FEA /* AtmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61072172205C00521FEA /* AtmMapper.swift */; };
+		BA9D610C2172205C00521FEA /* AddressMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61082172205C00521FEA /* AddressMapper.swift */; };
+		BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */; };
+		BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */; };
+		BA9D61132172206300521FEA /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D610F2172206300521FEA /* Atm.swift */; };
+		BA9D61142172206300521FEA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61102172206300521FEA /* Address.swift */; };
+		BA9D61152172206300521FEA /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61112172206300521FEA /* OpeningHours.swift */; };
+		BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D61122172206300521FEA /* OpeningHoursByDay.swift */; };
+		BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D6117217221AF00521FEA /* HomeViewController.swift */; };
 		F8655656EB9FD169E0CE0535 /* Pods_atmatm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6FB5899F4E68EB6BDC4601 /* Pods_atmatm.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +80,6 @@
 		BA117120217201B500042D43 /* atmatmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmatmUITests.swift; sourceTree = "<group>"; };
 		BA117122217201B500042D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9D60CA21720C6200521FEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BA9D60CB21720C6200521FEA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA9D60CE21720C6200521FEA /* ListTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTransform.swift; sourceTree = "<group>"; };
 		BA9D60D321720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9D60D421720C6200521FEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +98,18 @@
 		BA9D60E521720C6200521FEA /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		BA9D60E721720C6200521FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA9D60EB21720C6200521FEA /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		BA9D61002172147600521FEA /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		BA9D61032172158A00521FEA /* SonectWSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectWSClient.swift; sourceTree = "<group>"; };
+		BA9D6105217215FB00521FEA /* SonectRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonectRoutes.swift; sourceTree = "<group>"; };
+		BA9D61072172205C00521FEA /* AtmMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmMapper.swift; sourceTree = "<group>"; };
+		BA9D61082172205C00521FEA /* AddressMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressMapper.swift; sourceTree = "<group>"; };
+		BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursByDayMapper.swift; sourceTree = "<group>"; };
+		BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursMapper.swift; sourceTree = "<group>"; };
+		BA9D610F2172206300521FEA /* Atm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
+		BA9D61102172206300521FEA /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		BA9D61112172206300521FEA /* OpeningHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
+		BA9D61122172206300521FEA /* OpeningHoursByDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningHoursByDay.swift; sourceTree = "<group>"; };
+		BA9D6117217221AF00521FEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCD89BF604A4BC2517767EE1 /* Pods-atmatmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atmatmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-atmatmTests/Pods-atmatmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,11 +191,11 @@
 			children = (
 				BA9D60E421720C6200521FEA /* Constants */,
 				BA9D60E821720C6200521FEA /* Environments */,
+				BA9D60E321720C6200521FEA /* Services */,
 				BA9D60EA21720C6200521FEA /* Extentions */,
 				BA9D60CC21720C6200521FEA /* Models */,
 				BA9D60C921720C6200521FEA /* Module */,
 				BA9D60D121720C6200521FEA /* Ressources */,
-				BA9D60E321720C6200521FEA /* Services */,
 				BA117100217201B400042D43 /* AppDelegate.swift */,
 			);
 			path = atmatm;
@@ -201,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9D60CA21720C6200521FEA /* Main.storyboard */,
-				BA9D60CB21720C6200521FEA /* ViewController.swift */,
+				BA9D6117217221AF00521FEA /* HomeViewController.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -227,6 +249,10 @@
 		BA9D60CF21720C6200521FEA /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61082172205C00521FEA /* AddressMapper.swift */,
+				BA9D61072172205C00521FEA /* AtmMapper.swift */,
+				BA9D61092172205C00521FEA /* OpeningHoursByDayMapper.swift */,
+				BA9D610A2172205C00521FEA /* OpeningHoursMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -234,6 +260,10 @@
 		BA9D60D021720C6200521FEA /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61102172206300521FEA /* Address.swift */,
+				BA9D610F2172206300521FEA /* Atm.swift */,
+				BA9D61112172206300521FEA /* OpeningHours.swift */,
+				BA9D61122172206300521FEA /* OpeningHoursByDay.swift */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -278,6 +308,7 @@
 		BA9D60E321720C6200521FEA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61022172157400521FEA /* SonectWS */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -302,6 +333,7 @@
 		BA9D60E921720C6200521FEA /* dev */ = {
 			isa = PBXGroup;
 			children = (
+				BA9D61002172147600521FEA /* Environment.swift */,
 			);
 			path = dev;
 			sourceTree = "<group>";
@@ -312,6 +344,15 @@
 				BA9D60EB21720C6200521FEA /* Realm.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		BA9D61022172157400521FEA /* SonectWS */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D61032172158A00521FEA /* SonectWSClient.swift */,
+				BA9D6105217215FB00521FEA /* SonectRoutes.swift */,
+			);
+			path = SonectWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -635,9 +676,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9D60EE21720C6200521FEA /* ListTransform.swift in Sources */,
-				BA9D60ED21720C6200521FEA /* ViewController.swift in Sources */,
+				BA9D61162172206300521FEA /* OpeningHoursByDay.swift in Sources */,
+				BA9D610D2172205C00521FEA /* OpeningHoursByDayMapper.swift in Sources */,
+				BA9D61152172206300521FEA /* OpeningHours.swift in Sources */,
+				BA9D61142172206300521FEA /* Address.swift in Sources */,
+				BA9D61132172206300521FEA /* Atm.swift in Sources */,
+				BA9D610C2172205C00521FEA /* AddressMapper.swift in Sources */,
+				BA9D610B2172205C00521FEA /* AtmMapper.swift in Sources */,
 				BA117101217201B400042D43 /* AppDelegate.swift in Sources */,
 				BA9D60FF21720C6200521FEA /* Realm.swift in Sources */,
+				BA9D6118217221AF00521FEA /* HomeViewController.swift in Sources */,
+				BA9D61042172158A00521FEA /* SonectWSClient.swift in Sources */,
+				BA9D61012172147600521FEA /* Environment.swift in Sources */,
+				BA9D610E2172205C00521FEA /* OpeningHoursMapper.swift in Sources */,
+				BA9D6106217215FB00521FEA /* SonectRoutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
