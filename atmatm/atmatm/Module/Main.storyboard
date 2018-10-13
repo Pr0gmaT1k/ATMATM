@@ -18,15 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iqm-Sg-laH">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iqm-Sg-laH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heM-JP-BwX">
+                                <rect key="frame" x="320" y="612" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="15G-UE-WUu"/>
+                                    <constraint firstAttribute="height" constant="40" id="qBG-pc-xQb"/>
+                                </constraints>
+                                <state key="normal" image="gps"/>
+                                <connections>
+                                    <action selector="locateButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nx0-Of-qKH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iqm-Sg-laH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="470-d7-yv5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iqm-Sg-laH" secondAttribute="bottom" id="Tst-sC-V8V"/>
+                            <constraint firstAttribute="bottom" secondItem="iqm-Sg-laH" secondAttribute="bottom" id="Tst-sC-V8V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="heM-JP-BwX" secondAttribute="bottom" constant="15" id="YKh-Q9-CfT"/>
                             <constraint firstItem="iqm-Sg-laH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hdJ-Fv-mbJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="heM-JP-BwX" secondAttribute="trailing" constant="15" id="in6-bA-CqO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iqm-Sg-laH" secondAttribute="trailing" id="rff-cH-jzQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,4 +52,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="gps" width="449.56097412109375" height="449.56097412109375"/>
+    </resources>
 </document>

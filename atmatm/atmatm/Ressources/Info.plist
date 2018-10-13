@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>TODO: Add custom message</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>TODO: Add custom description</string>
 </dict>
 </plist>

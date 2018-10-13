@@ -13,17 +13,19 @@
         <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sonectId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="tagline" optional="YES" attributeType="String" syncable="YES">
-            <userInfo>
-                <entry key="identityAttribute" value="sonectId"/>
-            </userInfo>
-        </attribute>
+        <attribute name="tagline" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Address" syncable="YES"/>
+        <relationship name="openingHours" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHours" syncable="YES"/>
+        <userInfo>
+            <entry key="identityAttribute" value="sonectId"/>
+        </userInfo>
     </entity>
     <entity name="OpeningHours" representedClassName="OpeningHours" syncable="YES" codeGenerationType="class">
         <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="friday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
         <relationship name="monday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
         <relationship name="saturday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
+        <relationship name="sunday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
         <relationship name="thursday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
         <relationship name="tuesday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
         <relationship name="wednesday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHoursByDay" syncable="YES"/>
@@ -32,10 +34,50 @@
         <attribute name="close" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="open" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="OverallRating" representedClassName="OverallRating" syncable="YES" codeGenerationType="class">
+        <attribute name="five" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="5"/>
+            </userInfo>
+        </attribute>
+        <attribute name="four" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="4"/>
+            </userInfo>
+        </attribute>
+        <attribute name="one" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="three" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="3"/>
+            </userInfo>
+        </attribute>
+        <attribute name="two" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="2"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <entity name="Rating" representedClassName="Rating" syncable="YES" codeGenerationType="class">
+        <attribute name="by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Ratings" representedClassName="Ratings" syncable="YES" codeGenerationType="class">
+        <relationship name="all" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rating" syncable="YES"/>
+        <relationship name="overall" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OverallRating" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Atm" positionX="-63" positionY="-18" width="128" height="165"/>
         <element name="Address" positionX="-54" positionY="54" width="128" height="90"/>
-        <element name="OpeningHours" positionX="-36" positionY="63" width="128" height="150"/>
+        <element name="Atm" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="OpeningHours" positionX="-36" positionY="63" width="128" height="165"/>
         <element name="OpeningHoursByDay" positionX="-18" positionY="72" width="128" height="75"/>
+        <element name="OverallRating" positionX="-27" positionY="99" width="128" height="120"/>
+        <element name="Rating" positionX="-18" positionY="108" width="128" height="105"/>
+        <element name="Ratings" positionX="-36" positionY="90" width="128" height="75"/>
     </elements>
 </model>

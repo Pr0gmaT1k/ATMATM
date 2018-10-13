@@ -18,6 +18,7 @@ extension OpeningHours: Mappable {
     self.friday <- map["friday"]
     self.monday <- map["monday"]
     self.saturday <- map["saturday"]
+    self.sunday <- map["sunday"]
     self.thursday <- map["thursday"]
     self.tuesday <- map["tuesday"]
     self.wednesday <- map["wednesday"]

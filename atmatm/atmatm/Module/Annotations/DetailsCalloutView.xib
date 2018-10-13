@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="DetailsCalloutView" id="i5M-Pr-FkT" customClass="DetailsCalloutView" customModule="atmatm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="KJB-iA-2hC">
+                    <rect key="frame" x="5" y="10" width="10" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="Red-Bl-vJM"/>
+                        <constraint firstAttribute="height" constant="15" id="uuu-gP-EfC"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klc-wj-CCg">
+                    <rect key="frame" x="20" y="10" width="175" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="dv7-AV-Zud"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4BT-eT-xps">
+                    <rect key="frame" x="22" y="33" width="173" height="105"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="CQz-tD-Kmx"/>
+                    </constraints>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="DFf-u2-ZxP">
+                    <rect key="frame" x="5" y="33" width="12" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="2Dk-Qo-UGh"/>
+                        <constraint firstAttribute="width" constant="12" id="pBV-rs-WT4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DFf-u2-ZxP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="05d-rq-MTa"/>
+                <constraint firstItem="4BT-eT-xps" firstAttribute="leading" secondItem="DFf-u2-ZxP" secondAttribute="trailing" constant="5" id="6h1-Rc-uVc"/>
+                <constraint firstItem="klc-wj-CCg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="HRO-Hl-Cxe"/>
+                <constraint firstItem="KJB-iA-2hC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="K1s-Gg-E0F"/>
+                <constraint firstItem="KJB-iA-2hC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="Rbw-vN-YlJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="klc-wj-CCg" secondAttribute="trailing" constant="5" id="bqr-PP-qLN"/>
+                <constraint firstItem="DFf-u2-ZxP" firstAttribute="top" secondItem="klc-wj-CCg" secondAttribute="bottom" constant="8" id="dqG-NW-0Nl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4BT-eT-xps" secondAttribute="trailing" constant="5" id="jmW-s7-QOb"/>
+                <constraint firstItem="klc-wj-CCg" firstAttribute="leading" secondItem="KJB-iA-2hC" secondAttribute="trailing" constant="5" id="mc1-uf-H7d"/>
+                <constraint firstItem="4BT-eT-xps" firstAttribute="top" secondItem="klc-wj-CCg" secondAttribute="bottom" constant="8" id="wiX-rM-pwh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="addressLabel" destination="klc-wj-CCg" id="ZZl-5V-GV4"/>
+                <outlet property="tableView" destination="4BT-eT-xps" id="mzN-6h-Or7"/>
+            </connections>
+            <point key="canvasLocation" x="-1.6000000000000001" y="299.55022488755623"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="clock" width="256" height="256"/>
+        <image name="pin" width="171.24324035644531" height="245.18919372558594"/>
+    </resources>
+</document>
